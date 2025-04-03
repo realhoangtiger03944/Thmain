@@ -150,18 +150,6 @@ AddButton(Tab2o, {
     end
 })
 
-AddButton(Tab2o, {
-    Name = "Nothing",
-    Callback = function()
-        game.StarterGui:SetCore("SendNotification", {
-                Title = "Nothing!",
-                Text = "Không có gì",
-                Duration = 5
-            })
-        end
-    end
-})
-
 -- Tab trái
 AddButton(Tab3o, {
     Name = "auto Nhặt 🍑🤤",
