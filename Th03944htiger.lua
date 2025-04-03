@@ -116,7 +116,7 @@ AddButton(Tab2o, {
 })
 
 AddButton(Tab2o, {
-    Name = "Hoang-Tiger-Hub FaiFai v0.1",
+    Name = "Hoang-Tiger-Hub FaiFai v0.2",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Hoang223-design/BF-Tigerfifai/refs/heads/main/HoangBlackDepTraiVaiCaNho.lua"))()
     end
