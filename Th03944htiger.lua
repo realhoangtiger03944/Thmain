@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Hoang223-design/GuiHoang01/refs/heads/main/GuiHoang02.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Hoang223-design/Guitg/refs/heads/main/obf_ETuTutz1X49yQrCEtQoj7DPn2A619p82LY9tA8peZ3p9Ni1tEk7NeLUvPtj_Gui.lua"))()
   
 local Window = MakeWindow({
     Hub = {
