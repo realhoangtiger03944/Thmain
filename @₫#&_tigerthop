@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/realhoangtiger03944/cc-dumamay/refs/heads/main/source.lua.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realhoangtiger03944/cc-dumamay/refs/heads/main/UItiger0000.lua"))()
   
 local Window = MakeWindow({
     Hub = {
@@ -119,6 +119,13 @@ AddButton(Tab2o, {
     Name = "Hoang-Tiger-Hub FaiFai v0.2",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Hoang223-design/BF-Tigerfifai/refs/heads/main/HoangTiger-Main-Loading.lua"))()
+    end
+})
+
+AddButton(Tab2o, {
+    Name = "Hoang-Tiger-CMDS v0.9999",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/realhoangtiger03944/Thmain/refs/heads/main/tiger-command-script.lua"))()
     end
 })
 
