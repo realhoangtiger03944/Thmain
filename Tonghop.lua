@@ -71,10 +71,3 @@ AddButton(Tab1o, {
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
     end
 })
-
-AddButton(Tab1o, {
-    Name = "Banana Cat Hub",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
-    end
-})y
