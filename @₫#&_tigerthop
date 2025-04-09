@@ -2,8 +2,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realhoangtiger03944/c
   
 local Window = MakeWindow({
     Hub = {
-        Title = "Hoang Tiger | Tổng Hợp Script v0.3.1",
-        Animation = "Cre: Hoang-Tiger 🐅"
+        Title = "Hoang Tiger | Tổng Hợp Script v0.3.2",
+        Animation = "Cre | HoangTiger 🐅"
     },
     Key = {
         KeySystem = true,
@@ -30,9 +30,9 @@ MinimizeButton({
 })
 
 local Tab1o = MakeTab({Name = "🎹 Nhạc"})
-local Tab2o = MakeTab({Name = "🏠 Main script"})
-local Tab3o = MakeTab({Name = "🍎 Trái cây script"})
-local Tab4o = MakeTab({Name = "⚔️ PvP script"})
+local Tab2o = MakeTab({Name = "🏠 Main"})
+local Tab3o = MakeTab({Name = "🍎 Trái cây"})
+local Tab4o = MakeTab({Name = "⚔️ PvP"})
 local Tab5o = MakeTab({Name = "🌏 Khác"})
 local Tab6o = MakeTab({Name = "🛸 Dịch Chuyển"})
 local Tab7o = MakeTab({Name = "🌐 Server"})
@@ -123,9 +123,9 @@ AddButton(Tab2o, {
 })
 
 AddButton(Tab2o, {
-    Name = "Hoang-Tiger-CMDS v0.9999",
+    Name = "Hoang-Tiger-CMDS v0.2",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/realhoangtiger03944/Thmain/refs/heads/main/tiger-command-script.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/realhoangtiger03944/Thmain/refs/heads/main/obf_cmdstiger.lua"))()
     end
 })
 
