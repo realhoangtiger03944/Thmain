@@ -4,12 +4,7 @@ if placeId == 2753915549 or placeId == 4442272183 or placeId == 7449423635 then
 print("Break");
 local v0 = require(game:GetService("ReplicatedStorage").Notification);
 v0.new("<Color=Cyan>Bầu Trời Blue Lông Ku Black<Color=/>"):Display();
-wait(0.5);print("Break");
-local v0 = require(game:GetService("ReplicatedStorage").Notification);
-v0.new("<Color=Cyan>Bầu Trời Blue Lông Ku Black<Color=/>"):Display();
 wait(0.5);
-v0.new("<Color=Yellow>Jack Thì Bỏ Con<Color=/>"):Display();
-wai
 v0.new("<Color=Yellow>Jack Thì Bỏ Con<Color=/>"):Display();
 wait(1);
 repeat
