@@ -2,8 +2,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realhoangtiger03944/c
   
 local Window = MakeWindow({
     Hub = {
-        Title = "Hoang Tiger | Tổng Hợp v0.3.3",
-        Animation = "Cre: Hoang-Tiger 🐅"
+        Title = "Hoang Tiger | Tổng Hợp v0.3.4",
+        Animation = "Tổng hợp ProVIP🤡"
     },
     Key = {
         KeySystem = false,
@@ -29,32 +29,21 @@ MinimizeButton({
     StrokeColor = Color3.fromRGB(255, 0, 0)
 })
 
-local Tab1o = MakeTab({Name = "Main"})
+local Tab1o = MakeTab({Name = "HT script"})
+local Tab2o = MakeTab({Name = "Main2"})
 
--- Tab Main
+-- Tab 1
 AddButton(Tab1o, {
-    Name = "Redz Hub",
+    Name = "HoangTigerHub",
     Callback = function()
-        local Settings = {
-  JoinTeam = "Pirates"; -- Pirates/Marines
-  Translator = true; -- true/false
-}
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/realhoangtiger03944/MainI/refs/heads/main/Main-Loading-UI"))()
     end
 })
 
 AddButton(Tab1o, {
-    Name = "Hoang-Tiger-Hub v0.1",
+    Name = "Tigerv0.2",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Hoang223-design/Main-Loading_UI-1/refs/heads/main/HoangTiger-Main-UI.lua"))()
-    end
-})
-
-AddButton(Tab1o, {
-    Name = "Hoang-Tiger-Hub FaiFai v0.2",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Hoang223-design/BF-Tigerfifai/refs/heads/main/HoangTiger-Main-Loading.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/realhoangtiger03944/MainI/refs/heads/main/Tigerv0.2.lua"))()
     end
 })
 
@@ -65,9 +54,22 @@ AddButton(Tab1o, {
     end
 })
 
+--tab 2
 AddButton(Tab1o, {
     Name = "ASTRAL",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+    end
+})
+
+AddButton(Tab2o, {
+    Name = "Redz Hub",
+    Callback = function()
+        local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)
     end
 })
