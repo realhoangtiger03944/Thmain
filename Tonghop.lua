@@ -55,7 +55,7 @@ AddButton(Tab1o, {
 })
 
 --tab 2
-AddButton(Tab1o, {
+AddButton(Tab2o, {
     Name = "ASTRAL",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
