@@ -21,7 +21,7 @@ local Window = MakeWindow({
 })
 
 MinimizeButton({
-    Image = "http://www.roblox.com/asset/?id=128504363561748",
+    Image = "http://www.roblox.com/asset/?id=133662246764578",
     Size = {47, 47},
     Color = Color3.fromRGB(10, 10, 10),
     Corner = true,
