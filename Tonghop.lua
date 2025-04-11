@@ -2,7 +2,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realhoangtiger03944/c
   
 local Window = MakeWindow({
     Hub = {
-        Title = "Hoang Tiger | Tổng Hợp v0.3.4",
+        Title = "Hoang Tiger | Tổng Hợp v0.3.5",
         Animation = "Tổng hợp ProVIP🤡"
     },
     Key = {
