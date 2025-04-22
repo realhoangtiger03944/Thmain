@@ -41,9 +41,9 @@ AddButton(Tab1o, {
 })
 
 AddButton(Tab1o, {
-    Name = "Tigerv0.2 | ( Nokey )",
+    Name = "HTG V0 Hub | ( Nokey )",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/RoyEnigmatic/MainI/refs/heads/main/Tigerv0.2.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RoyEnigmatic/MainI/refs/heads/main/HTGv0.lua"))()
     end
 })
 
