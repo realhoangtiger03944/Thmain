@@ -13,5 +13,5 @@ until game.Players.LocalPlayer
 if  not game:IsLoaded() then
     game.Loaded:Wait();
 end
-loadstring(game:HttpGet("https://raw.githubusercontent.com/RoyEnigmatic/Thmain/refs/heads/main/T0n6h0p(v0.3.5).lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RoyEnigmatic/Thmain/refs/heads/main/Tonghophub"))()
 end
