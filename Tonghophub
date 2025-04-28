@@ -75,13 +75,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/re
 })
 
 AddButton(Tab2o, {
-    Name = "BlueX-Hub | ( Nokey )",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
-    end
-})
-
-AddButton(Tab2o, {
     Name = "HOHO | ( key )",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
@@ -145,12 +138,5 @@ _G.UsePortalTeleport = true
 
 _G.loadCustomId = "fac6dbd013c78163f8061ce11b2c1330"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
-    end
-})
-
-AddButton(Tab2o, {
-    Name = "Banana Hub | ( Nokey )",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
     end
 })
