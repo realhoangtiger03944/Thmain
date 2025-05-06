@@ -47,7 +47,7 @@ Tabs.Main0:AddButton({
 
     
 Tabs.Main1:AddButton({
-    Title="HTG English Hub | ( Nokey )",
+    Title="HTG đã xoá...| ( Nokey )",
     Description="",
     Callback=function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/RoyEnigmatic/MainI/refs/heads/main/HTGEnglish.lua"))()
