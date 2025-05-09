@@ -34,13 +34,6 @@ local Tab2o = MakeTab({Name = "Main"})
 
 -- Tab 1
 AddButton(Tab1o, {
-    Name = "HTG English Hub | ( Nokey )",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/RoyEnigmatic/MainI/refs/heads/main/HTGEnglish.lua"))()
-    end
-})
-
-AddButton(Tab1o, {
     Name = "HTG V0 Hub | ( Nokey )",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/RoyEnigmatic/MainI/refs/heads/main/HTGv0.lua"))()
