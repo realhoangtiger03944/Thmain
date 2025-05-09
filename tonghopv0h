@@ -39,19 +39,10 @@ local Tabs = {
 }
 Tabs.Main0:AddButton({
     Title = "Discord HTG Hub",
-    Description = "https://discord.gg/4gtQQPCy",
+    Description = "https://discord.gg/YkRK3DRHN4",
     Callback = function()
-        setclipboard("https://discord.gg/4gtQQPCy")
+        setclipboard("https://discord.gg/YkRK3DRHN4")
     end
-})
-
-    
-Tabs.Main1:AddButton({
-    Title="HTG English Hub | ( Nokey )",
-    Description="",
-    Callback=function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/RoyEnigmatic/MainI/refs/heads/main/HTGEnglish.lua"))()
-  end
 })
 
 Tabs.Main1:AddButton({
