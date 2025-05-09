@@ -1,17 +1,7 @@
-local placeId = game. PlaceId
-if placeId == 2753915549 or placeId == 4442272183 or placeId == 7449423635 then
---Blox Fruits
-print("Break");
-local v0 = require(game:GetService("ReplicatedStorage").Notification);
-v0.new("<Color=Cyan>Xuân Vii ơi, bà không phải ánh nắng, nhưng lại làm tim tui ấm áp từng ngày.<Color=/>"):Display();
-wait(1);
-v0.new("<Color=Yellow>Bà không phải kẹo, mà sao mỗi lần nghĩ tới, lòng tui ngọt lịm vậy nè..!<Color=/>"):Display();
-wait(1);
-repeat
-    wait();
-until game.Players.LocalPlayer
-if  not game:IsLoaded() then
-    game.Loaded:Wait();
-end
-loadstring(game:HttpGet("https://raw.githubusercontent.com/RoyEnigmatic/Thmain/refs/heads/main/Tonghophub"))()
-end
+local Games = {
+  [2753915549] = "https://raw.githubusercontent.com/RoyEnigmatic/MainI/refs/heads/main/HTGv0.lua", -- Blox Fruit Sea 1
+  [4442272183] = "https://raw.githubusercontent.com/RoyEnigmatic/Thmain/refs/heads/main/Tonghophub", -- Blox Fruit Sea 2
+  [7449423635] = "https://raw.githubusercontent.com/RoyEnigmatic/Thmain/refs/heads/main/tonghopv0h", -- Blox Fruit Sea 3
+}
+
+return Games
