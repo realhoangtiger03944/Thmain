@@ -6,11 +6,11 @@ local Window = MakeWindow({
         Animation = "Tổng hợp ProVIP🤡"
     },
     Key = {
-        KeySystem = false,
+        KeySystem = true,
         Title = "Nhập key để tiếp tục!!",
         Description = "Administrator | HuynhNgocHoang",
-        KeyLink = "",
-        Keys = {""},
+        KeyLink = "https://ngochoangdzz.github.io/GeyKey/key.html",
+        Keys = {"HTG_KwJtEF9tRDdQTyi"},
         Notifi = {
             Notifications = true,
             CorrectKey = "Script Đang Chạy!",
