@@ -62,6 +62,14 @@ Tabs.Main1:AddButton({
 })
 
 Tabs.Main2:AddButton({
+    Title="Banana Hub",
+    Description="Click vào để sao chép link lấy script banana free",
+    Callback=function()
+	  setclipboard("https://anotepad.com/notes/h5xb5ad9")
+  end
+})
+
+Tabs.Main2:AddButton({
     Title="ASTRAL | ( Nokey )",
     Description="",
     Callback=function()
