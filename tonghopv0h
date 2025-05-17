@@ -39,7 +39,7 @@ local Tabs = {
 }
 Tabs.Main0:AddButton({
     Title = "Discord HTG Hub",
-    Description = "https://discord.gg/YkRK3DRHN4",
+    Description = "Vào nhóm discord giao lưu",
     Callback = function()
         setclipboard("https://discord.gg/YkRK3DRHN4")
     end
